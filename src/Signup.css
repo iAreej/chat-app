@@ -1,0 +1,48 @@
+.username{
+    display: flex;
+    padding-left: 300px;
+}
+.password{
+    display:flex;
+    padding-left: 200px;
+}
+.signup{
+    display: flex;
+}
+#b2{
+    margin-top: 15px;
+    font-size: 25px;
+    height: 50px;
+    border-radius: 5%;
+    width: 550px;
+    margin-left: 20%;
+  background-color:rgb(32, 133, 215);
+  color: aliceblue;
+  }
+  #b2:hover{
+    background-color: aliceblue;
+    color: rgb(32, 133, 215);
+  }
+  .sick{
+    text-align: center;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-content: center;
+height:100vh;
+width: 1500px;
+overflow: hidden;
+opacity: 5;
+background-size:cover;
+color: rgb(32, 133, 215);
+    background-image: url("is.jpg");
+  }
+  
+  .Emptydiv{
+    background-color:rgb(32, 133, 215);
+    object-fit: contain;
+    height: 750px;
+    width: 850px;
+    color:white;
+  }
+  

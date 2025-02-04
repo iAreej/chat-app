@@ -1,0 +1,52 @@
+body{
+  background-color: rgb(14, 36, 68);
+  
+}
+.usernamediv,.passworddiv{
+  font-style: italic;
+  display: flex;
+  justify-content: center;
+    align-content: center;
+  }
+  .inp{
+    height: 25px;
+    width: 300px;
+    margin-top: 25px;
+    margin-left: 15px;
+    font-size: 20px;
+  }
+.App{
+  text-align: center;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-content: center;
+height:100vh;
+width: 1500px;
+overflow: hidden;
+background-image: url("blue-fade.jpg");
+opacity:2.1;
+
+background-size:cover;
+
+color: rgb(10, 67, 117);
+}
+
+
+.Link{
+  color: rgb(10, 67, 117);
+}
+#b1{
+  margin-top: 15px;
+  font-size: 25px;
+  height: 50px;
+  border-radius: 5%;
+  width: 550px;
+  margin-left: 31%;
+background-color:  rgb(10, 67, 117);
+ color: aliceblue;
+}
+#b1:hover, .Link:hover{
+  background-color: aliceblue;
+  color:rgb(58, 20, 52);
+}
